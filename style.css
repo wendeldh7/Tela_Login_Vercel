@@ -1,0 +1,124 @@
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body, button {
+    background-color: #000;
+    font-family: 'Inter', sans-serif;
+    }
+
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 5px;
+    }
+
+    .logo{
+        width: 200px;
+    }
+
+    .navigation ul{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    padding: 12px;
+    margin-top: -30px;
+    }
+
+    .navigation ul li a {
+    text-decoration: none;
+    color: #888;
+    font-size: 14px
+    }
+
+    .btn, button {
+        padding: 0.4rem 1.3rem;
+        background-color: #000;
+        border: 0.1px solid #333;
+        border-radius: 5px;
+    }
+
+    .btn:hover {
+    color: #fff;
+    border: 0.1px solid #fff;
+    border-radius: 5px;
+    }
+
+    .navigation ul li a:hover {
+    color: #fff;
+    }
+
+    .login_body {
+    color: #fff;
+    display: flex;
+    margin-top: 26px;
+    justify-content: center;
+    font-size: 26px;
+    margin-left: 35%;
+    padding: 1px;
+    }
+
+    button {
+    display; flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 8px;
+    width: 60%;
+    height: 50px;
+    margin-left: -25px;
+    margin-top: 18px;
+    border-radius: 8px;
+    background-color: #24292e;
+    color: #fff;
+    }
+
+    button:hover {
+    background-color: #384351;
+    }
+
+    #btn-lab {
+    background-color: #6b4fbb;
+    }
+
+    #btn-lab:hover{
+    background-color: #8a78bf;
+    }
+
+    #bnt-cket {
+    background-color: #0052cc;
+    margin-bottom: 20px;
+    }
+
+    #bnt-cket:hover {
+    background-color: #2573e9;
+    }
+
+    #btn-sso {
+    background-color: #000;
+    color: #888;
+    }
+
+    #btn-sso:hover {
+    color: #fff;
+    border: 0.1px solid #fff;
+    border-radius: 5px;
+    }
+
+    p {
+    color: #3291ff;
+    margin-left: 55px;
+    padding: 7px;
+    height: 8px;
+    font-size: 18px;
+    margin-top: 8px;
+    cursor: pointer;
+    }
+
+    p:hover {
+    text-decoration: underline;
+    }
